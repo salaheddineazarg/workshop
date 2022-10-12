@@ -1,0 +1,240 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+    /******************\
+    |** Start Navbar **|
+    \******************/
+    nav{
+        width: 100%;
+        height: 43px;
+        top: 0px;
+        background-color: #000000;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        position: fixed;
+        z-index: 1000;
+    }
+    .nav{
+        margin-top: 10px;
+    }
+    .right {
+        display: flex;
+        gap : 20px;
+        float: right; 
+        margin-right: 10px;
+        color: rgb(255, 255, 255);
+    }
+    .left{
+        display: flex;
+        float: left;
+        margin-left: 10px;
+        font-size: 130%;
+        color: rgb(143, 110, 0);
+    }
+    a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+    }
+    a:visited{
+        color: #ffffff;
+    }
+    button{
+        padding: 5px 10px;
+        margin-top: -4px;
+        border-radius: 15px;
+        border: none;
+        cursor: pointer;
+        background-color: #000000;
+        color: #ffffff;
+    }
+    button:hover{
+        background-color: #ffffff;
+        color: #000000;
+    }
+    .image{
+        width: 100%;
+        height:100vh ;
+        position: relative;
+        margin-top:13% ;
+    }
+    .image2{
+        width: 100%;
+        height:40vh ;
+        position: absolute;
+        top:6% ;
+    }
+    .text{
+    width:100% ;
+    height:12vh ;
+    position:absolute ;
+    top:7% ;
+
+    }
+    .h1{
+    text-align: center;
+    position: relative;
+    margin-top: 0.8%;
+    font-size:320%;
+    }
+    .button1{
+        width:8% ;
+        height:5% ;
+        position: absolute;
+        top: 100%;
+        left: 46%;
+        background-color: #03410f;
+        color: #ffffff;
+    }
+    .category{
+        position: relative;
+        margin-left: 45%;
+       font-size: 250%;
+       color: #000000;
+    }
+   
+    .i2{
+    width:100%  ;
+    height:60vh ;
+    position: absolute; 
+    
+    left: -5%;
+    top: 900%;
+    }
+    .i3{
+        width:100%  ;
+        height:60vh ;
+        position: absolute; 
+        
+        left: 30%;
+        top: 900%;
+        }
+        .i4{
+            position: absolute;
+            width:100%  ;
+            height:60vh ;
+            left: 65%;
+            top: 900%;
+            }
+            .button2{
+                width:10% ;
+                height:9% ;
+                position: absolute;
+                top: 90%;
+                left: 3%;
+                background-color: #03410f;
+                color: #ffffff;
+
+            }
+ /******************\
+    |*** Start Card ***|
+    \******************/
+
+    .images{
+        width: 100%;
+        height:15vh;
+        display: flex;
+        flex-direction: row;
+        margin-top: 2%;
+        margin-left: 2.5%;
+    }
+
+    .card {
+        left:   -5%;
+        width: 30%;
+        padding: 10px 0;
+        padding-right: 18px;
+        
+    }
+    .card-img{
+        height: 40vh;
+        width: 100%;
+        margin-bottom: 11.66px;
+        margin-left: 8.33px;
+    }
+    .card-body{    
+        width: 100%;
+        color: #000;
+        margin-left: -10%;
+        font-size: 25px;
+    }
+    
+    .btn{
+        font-size: 20px;
+        margin-left: 50%;
+        background-color: #03410f;
+        padding: 5.55px 8.33px;
+        border-radius: 15px;
+    }
+    .btn:hover {
+        background-color: #000000;
+        color: #ffffff;
+    }
+    /******************\
+    |**** End Card ****|
+    \******************/
+    .btn2{
+        font-size: 20px;
+        background-color: #03410f;
+        padding: 5.55px 8.33px;
+        border-radius: 15px;
+        position: absolute;
+        top: 100%;
+        left: 45%;
+    }
+    .btn2:hover{
+        background-color: #000;
+        color: rgb(255, 255, 255);
+    }
+    .h2{
+        text-align: center;
+        margin-top: 20%;
+        font-size:300%;
+
+    }
+    #h2{
+        margin-top: 5%;
+    }
+
+    p{
+        text-align: center;
+        width: 90%;
+        font-size: 30px;
+        margin-left: 5%;
+    }
+
+    /****************\
+    |** Start Form **|
+    \****************/
+
+    input,
+    textarea{
+        margin-top: 5px;
+        width: 20%;
+        margin-bottom: 10px;
+        box-shadow: 0 0 2px 0;
+        
+    }
+    input{
+        height: 30px;
+    }
+    textarea{
+        height: 60px;
+    }
+    pre{
+        margin-left: -113px;
+    }
+    #submit{
+        width: 8%;
+        background-color: rgb(7, 59, 2);
+        color: #ffffff;
+        border-radius: 15px;
+    }
+    #submit:hover{
+        background-color: #000;
+        color: rgb(255, 255, 255);
+    }
+
+
+    /****************\
+    |*** End Form ***|
+    \****************/
