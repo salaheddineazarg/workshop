@@ -1,0 +1,42 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color: aqua;
+}
+#titre{
+    margin-top: 4%;
+    text-align: center;
+}
+ .container{
+    position: absolute;
+    left: 40%;
+   width: 260px;
+   height:400px ;
+    display: flex;
+    flex-direction: column;
+   background: linear-gradient(180deg, #5EA7FF 23.96%, rgba(94, 167, 255, 0.921875) 48.96%, rgba(94, 167, 255, 0) 100%)
+ }
+
+
+input{
+    
+    margin: 4%;
+    height: 24px;
+    width:250px ;
+margin-left: 1%;
+}
+button{
+    margin-top: 3%;
+    height: 30px ;
+    width: 80px ;
+    background-color: black;
+    color: white;
+}
+label{
+ text-align: center;
+}
+button{
+    margin-left: 33%;
+}
